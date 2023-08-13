@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>csir_mydatapoints</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script  src="./leaflet/dist/leaflet.js"></script>
+<link rel="stylesheet" type="text/css" href="public/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="requestanimationframe.js"></script>
+<!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="title" style ="top:10%; left:50%">
+            <h1>
+                CSV Coordinates Mapping  
+                    
+            </h1>
+          
+        </div>
+        <div id="map" style="width: 800px; height: 600px; position:absolute;top:50%; left:50% ; padding: 10px; transform: translate(-50%, -50%);">
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQnrXLpu2PhSa784a30sj0rWbVaF9d7-U&callback=initMap" async defer></script>
+            
+        </div>
+        <div class="button">
+          
+            <!--<form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="csvFileInput" accept=".csv"><br><br>
+                <button type="submit" href="">SUBMIT</button>
+                <button type="submit" href="">DOWNLOAD</button>
+                
+                <input id="csvFileInput" type="file" href="" class="btn" name="csvFileInput"accept=".csv"><br><br>
+                <a id="uploadButton"type="submit" href="" class="btn">SUBMIT</a>
+                <a type="submit" href="" class="btn">DOWNLOAD</a>
+
+                
+               
+            </form>-->
+            <div id="map" style="width: 800px; height: 600px;"></div>
+            <input style="background-color: #008CBA;" type="file" id="csvFileInput" accept=".csv">
+            <button style="background-color: #4CAF50;display: inline-block;border: white;font-size: 16px;"id="uploadButton">Upload CSV</button>
+
+            <script src="script.js"></script>
+            
+            <!--<div class="text-center"><a href="" class="btn">DOWNLOAD</a></div>
+
+            <form action="/" method="post" encty"multipart/form-data">  
+                <input type="file" name="csv"><br><br>  
+             <div class="text-center"><button type="submit" class="btn btn-lg btn-primary">submit</button></div>     
+            </form> -->
+
+        </div>    
+    </header>
+
+</body>
+</html>
