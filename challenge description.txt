@@ -1,0 +1,26 @@
+#Main challenge (all compulsory):
+1. Write a function (using any coding language you wish) that can read the csv file which contains various latitude and longitude points and a Temperature value.
+and
+2. Convert the temperatures to Kelvin.
+and
+3. Display the result by plotting the data overlayed on a pannable map (e.g. openstreet maps, google maps, terrain, contour, nature, etc) on any web platform you desire.
+and
+4. Use the colour scheme, provided in the pdf, for the colours of the overall outlook of the web interface, i.e. buttons, dropdown menus, ribbons, bars, cards, other html components etc. 
+(Note: the data and all relating to the map can be any colour)
+and
+5. Include any of the CSIR offical logo's on your web interface
+
+#Bonus challenge (either one or more than one):
+1. Add functionality for the user to upload a csv of their choice rather than serving the csv file statically in the background
+or
+2. When the user hovers over the data point in the map, the temperature value (in both Kelvin and degree Celsius) for that point should shown (in any form you wish to show it, pop-out, value changing at bottom of map etc.)
+or
+3. Create a button to change the type of map e.g. from satellite to terrain or contour map to streetmap etc. 
+or
+4. Create a button that, when clicked, downloads the csv file containing the latitude, longitude and temperature in both degrees Celsius and Kelvin 
+
+
+Note: A picture of the data points is provided for your information.
+
+
+API_KEY = AIzaSyAQnrXLpu2PhSa784a30sj0rWbVaF9d7-U
